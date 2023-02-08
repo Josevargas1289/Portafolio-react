@@ -8,7 +8,7 @@ import Vecto2 from '../../img/Vector2.png'
 import boy2 from '../../img/boy3.png'
 import thunbup from '../../img/thumbup.png'
 import Crown from '../../img/crown.png'
-import glassesimoji from '../../img/glassesimoji.png'
+// import glassesimoji from '../../img/glassesimoji.png'
 import Floatingdiv from '../FloatingDiv/Floatingdiv';
 
 
