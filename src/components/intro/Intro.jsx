@@ -6,6 +6,8 @@ import Instagram from '../../img/instagram.png';
 import Vecto1 from '../../img/Vector1.png'
 import Vecto2 from '../../img/Vector2.png'
 import boy2 from '../../img/boy3.png'
+import fotoperfil from '../../img/fotoperfil.png'
+
 import thunbup from '../../img/thumbup.png'
 import Crown from '../../img/crown.png'
 // import glassesimoji from '../../img/glassesimoji.png'
@@ -33,9 +35,9 @@ const Intro = () => {
                 </div>
             </div>
             <div className="i-rigth">
-                <img src={Vecto1} alt="" />
-                <img src={Vecto2} alt="" />
-                <img className='img-boy2' src={boy2} alt="" />
+                <img className='imgperfil' src={fotoperfil} alt="" />
+               
+               
                 {/* <img className='imgemoji' src={glassesimoji} alt="" /> */}
                 
                 <div style={{ top: '-4%', left: '68%' }}>
