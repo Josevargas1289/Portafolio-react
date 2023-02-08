@@ -3,9 +3,9 @@ import './Intro.css'
 import Github from '../../img/github.png';
 import Linkedind from '../../img/linkedin.png';
 import Instagram from '../../img/instagram.png';
-import Vecto1 from '../../img/Vector1.png'
-import Vecto2 from '../../img/Vector2.png'
-import boy2 from '../../img/boy3.png'
+// import Vecto1 from '../../img/Vector1.png'
+// import Vecto2 from '../../img/Vector2.png'
+// import boy2 from '../../img/boy3.png'
 import fotoperfil from '../../img/fotoperfil.png'
 
 import thunbup from '../../img/thumbup.png'
