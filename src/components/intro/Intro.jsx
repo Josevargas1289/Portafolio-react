@@ -24,7 +24,7 @@ const Intro = () => {
                     <span>Hola! soy</span>
                     <span>Jose Vargas</span>
                     <span>
-                    Soy un desarrollador web full-stack altamente capacitado en la creación de experiencias de usuario atractivas y eficientes. Mi flexibilidad me permite trabajar en proyectos de diversa naturaleza y adaptarme rápidamente a nuevas tecnologías. Valoro el trabajo en equipo y siempre estoy dispuesto a colaborar para lograr los objetivos comunes. Con mi dedicación y pasión por el desarrollo web, puedo asegurar resultados sobresalientes en cada proyecto en el que participo.
+                    Desarrollador web full-stack altamente capacitado en la creación de experiencias de usuario atractivas y eficientes. Mi flexibilidad me permite trabajar en proyectos de diversa naturaleza y adaptarme rápidamente a nuevas tecnologías. Valoro el trabajo en equipo y siempre estoy dispuesto a colaborar para lograr los objetivos comunes. Con mi dedicación y pasión por el desarrollo web, puedo asegurar resultados sobresalientes en cada proyecto en el que participo.
                     </span>
                 </div>
     

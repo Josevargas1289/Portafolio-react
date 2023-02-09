@@ -1,5 +1,7 @@
 .intro{
     display: flex;
+    justify-content: center;
+    align-content: center;
     height: 77vh;
     margin-top: 6rem;
     padding-bottom: 10rem;
