@@ -2,6 +2,9 @@
     display: flex;
     height: 77vh;
     margin-top: 6rem;
+    padding-bottom: 10rem;
+    border-bottom: 1px solid var(--orange);
+
 }
 .i-left{
     display: flex;

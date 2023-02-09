@@ -18,12 +18,12 @@ const Experience = () => {
     return (
         <div className='container-experience'>
 
-            <div className="awesome" style={{textAlign: 'center'}}>
+            <div className="awesome1" style={{textAlign: 'center'}}>
                 <span>Mis</span>
                 <span>Habilidades</span>
               
-            {/* <div className="blur s-blur3" style={{ background: "#ABF1FF94" }}></div> */}
-
+            <div className="blur s-blur3" style={{ background: "#ABF1FF94" }}></div>
+           
             </div>
            
             <div className="experience" id='experience'>
@@ -99,12 +99,10 @@ const Experience = () => {
                     <span>Firebase</span>
                    
                 </div>
-                {/* <div
-                    className="blur s-blur4"
-                    style={{ background: "var(--purple)" }}
-                ></div> */}
+               
 
             </div>
+            
           
 
 
