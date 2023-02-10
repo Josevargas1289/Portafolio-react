@@ -1,14 +1,13 @@
-* {
-    font-family: "Gumela";
-    font-weight: normal;
-    font-size: 20px;
-  }
+
 .portfolio {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px dotted var(--orange);
+
 }
 
 /* heading */
@@ -48,6 +47,7 @@
     overflow: hidden;
     background-size: cover;
     box-shadow: 0px 0px 6px 3px rgba(128, 128, 128, 0.663);
+    font-family: 'Poppins', sans-serif;
 
 }
 .btnP{
@@ -171,6 +171,7 @@ background-color: #1a89e1;
     font-size: 40px;
     line-height: 1;
     color: rgba(0, 0, 0, 0.87);
+    font-family: 'Poppins', sans-serif;
 }
 
 .description-p {
@@ -178,6 +179,8 @@ background-color: #1a89e1;
     padding: 0 24px 24px;
     font-size: 18px;
     line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+
 }
 .container-btn{
     position: absolute;
