@@ -10,7 +10,7 @@
     /* scroll view */
     padding-top: 5rem;
     padding-bottom: 10rem;
-    border-bottom: 1px solid var(--orange);
+    border-bottom: 2px dotted var(--orange);
 
     
   }

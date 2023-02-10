@@ -8,6 +8,7 @@ import '../Portafolio/Portafolio.css'
 const Portafolio = () => {
     return (
         <div className="portfolio" id="portfolio">
+
             {/* heading */}
             <span >Proyectos Recientes</span>
             <span>Portafolio</span>
@@ -15,43 +16,99 @@ const Portafolio = () => {
 
                 <div className='card-p p1'>
                     <div className='info-p if1'>
-                        <h3 className='title-p'> <i className='bx bxs-shopping-bag bx-md bx-tada'> </i>eComerce</h3>
-                       
-                        <p className='description-p'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius esse corporis, velit porro impedit laudantium accusamus! Id velit, illum magni rem mollitia blanditiis iste maiores optio ipsa, est dolorem fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius esse corporis, velit porro impedit laudantium accusamus! Id velit, illum magni rem mollitia blanditiis iste maiores optio ipsa, est dolorem fugit.</p>
+                        <h3 className='title-p animate__animated animate__fadeInBottomRight' > <i className='bx bxs-shopping-bag bx-md bx-tada'> </i>eComerce</h3>
+
+                        <p className='description-p'>Desarollado usando React, HTML, CSS, JS, Redux, Boostrap y NodeJS.</p>
+                        <div className='container-btn'>
+                            <a href="https://delightful-wisp-5363dd.netlify.app/" target='blank'>
+                                <button className='btnP btn0'><i class='bx bxl-github bx-sm  bx-tada-hover'></i></button>
+                            </a>
+                            <a href="https://delightful-wisp-5363dd.netlify.app/" target='blank'>
+                                <button className='btnP btn0'><i class='bx bxs-navigation bx-sm  bx-tada-hover'></i></button>
+                            </a>
+                        </div>
+
                     </div>
                 </div>
+                <div className="blur-p s-blur5" style={{ background: "#ABF1FF94" }}></div>
+
 
                 <div className='card-p p2'>
                     <div className='info-p if2'>
-                        <h1 className='title-p'>Title</h1>
-                        <p className='description-p'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius esse corporis, velit porro impedit laudantium accusamus! Id velit, illum magni rem mollitia blanditiis iste maiores optio ipsa, est dolorem fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius esse corporis, velit porro impedit laudantium accusamus! Id velit, illum magni rem mollitia blanditiis iste maiores optio ipsa, est dolorem fugit.</p>
+                        <h3 className='title-p animate__animated animate__fadeInBottomRight' > <i className='bx bxs-shopping-bag bx-md bx-tada'> </i>eComerce</h3>
+                        <p className='description-p'>Desarollado usando HTML, CSS y Vanilla JS </p>
+                        <div className='container-btn'>
+                            <a href="https://delightful-wisp-5363dd.netlify.app/" target='blank'>
+                                <button className='btnP btn1'><i class='bx bxl-github bx-sm  bx-tada-hover'></i></button>
+                            </a>
+                            <a href="https://delightful-wisp-5363dd.netlify.app/" target='blank'>
+                                <button className='btnP btn1'><i class='bx bxs-navigation bx-sm  bx-tada-hover'></i></button>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className='card-p p3'>
                     <div className='info-p if3 '>
-                        <h1 className='title-p'>Title</h1>
-                        <p className='description-p'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius esse corporis, velit porro impedit laudantium accusamus! Id velit, illum magni rem mollitia blanditiis iste maiores optio ipsa, est dolorem fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius esse corporis, velit porro impedit laudantium accusamus! Id velit, illum magni rem mollitia blanditiis iste maiores optio ipsa, est dolorem fugit.</p>
+                        <h3 className='title-p'><i class='bx bx-cricket-ball bx-md bx-tada'></i>Pokedex</h3>
+                        <p className='description-p'>Desarollado usando HTML, CSS y React, y peteiciones a la API con ayuda de Axios</p>
+                        <div className='container-btn'>
+                            <a href="https://delightful-wisp-5363dd.netlify.app/" target='blank'>
+                                <button className='btnP btn2'><i class='bx bxl-github bx-sm  bx-tada-hover'></i></button>
+                            </a>
+                            <a href="https://delightful-wisp-5363dd.netlify.app/" target='blank'>
+                                <button className='btnP btn2'><i className='bx bxs-navigation bx-sm  bx-tada-hover'></i></button>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className='card-p p4'>
                     <div className='info-p if4'>
-                        <h1 className='title-p'>Title</h1>
-                        <p className='description-p'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius esse corporis, velit porro impedit laudantium accusamus! Id velit, illum magni rem mollitia blanditiis iste maiores optio ipsa, est dolorem fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius esse corporis, velit porro impedit laudantium accusamus! Id velit, illum magni rem mollitia blanditiis iste maiores optio ipsa, est dolorem fugit.</p>
+                        <h3 className='title-p'><i class='bx bxs-bug-alt bx-md bx-tada'></i>Rick and Morty </h3>
+                        <p className='description-p'>Desarollado usando HTML, CSS y React, y peteiciones a la API con ayuda de Axios</p>
+                        <div className='container-btn'>
+                            <a href="https://delightful-wisp-5363dd.netlify.app/" target='blank'>
+                                <button className='btnP btn3'><i class='bx bxl-github bx-sm  bx-tada-hover'></i></button>
+                            </a>
+                            <a href="https://delightful-wisp-5363dd.netlify.app/" target='blank'>
+                                <button className='btnP btn3'><i class='bx bxs-navigation bx-sm  bx-tada-hover'></i></button>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className='card-p p5'>
                     <div className='info-p if5'>
-                        <h1 className='title-p'>Title</h1>
-                        <p className='description-p'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius esse corporis, velit porro impedit laudantium accusamus! Id velit, illum magni rem mollitia blanditiis iste maiores optio ipsa, est dolorem fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius esse corporis, velit porro impedit laudantium accusamus! Id velit, illum magni rem mollitia blanditiis iste maiores optio ipsa, est dolorem fugit.</p>
+                        <h1 className='title-p'><i className='bx bxs-log-in-circle bx-md bx-tada'></i>Crud's</h1>
+                        <p className='description-p'>Desarollado con Redux, React, HTML, CSS, permite crear, leer, actualizar y eliminar usuarios</p>
+                        <div className='container-btn'>
+                            <a href="https://delightful-wisp-5363dd.netlify.app/" target='blank'>
+                                <button className='btnP btn4'><i class='bx bxl-github bx-sm  bx-tada-hover'></i></button>
+                            </a>
+                            <a href="https://delightful-wisp-5363dd.netlify.app/" target='blank'>
+                                <button className='btnP btn4'><i class='bx bxs-navigation bx-sm  bx-tada-hover'></i></button>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className='card-p p6'>
                     <div className='info-p if6'>
-                        <h1 className='title-p'>Title</h1>
-                        <p className='description-p'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius esse corporis, velit porro impedit laudantium accusamus! Id velit, illum magni rem mollitia blanditiis iste maiores optio ipsa, est dolorem fugit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius esse corporis, velit porro impedit laudantium accusamus! Id velit, illum magni rem mollitia blanditiis iste maiores optio ipsa, est dolorem fugit.</p>
+                        <h1 className='title-p'><i class='bx bxs-shopping-bag bx-md bx-tada'></i>Portafolio</h1>
+                        <p className='description-p'>Desarrollado con HTML, CSS, React y Boostrap</p>
+                        <div className='container-btn'>
+                            <a href="https://delightful-wisp-5363dd.netlify.app/" target='blank'>
+                                <button className='btnP btn5'><i class='bx bxl-github bx-sm  bx-tada-hover'></i></button>
+                            </a>
+                            <a href="https://delightful-wisp-5363dd.netlify.app/" target='blank'>
+                                <button className='btnP btn5'><i class='bx bxs-navigation bx-sm  bx-tada-hover'></i></button>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                
+                <div
+                    className="blur-p1 "
+                    style={{ background: "var(--purple)" }}
+                ></div>
+
+
 
             </div>
 
