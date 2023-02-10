@@ -3,6 +3,7 @@ import './App.css'
 import Intro from "./components/intro/Intro";
 import Services from "./components/Servicess/Services";
 import Experience from "./components/Experience/Experience";
+import Portafolio from "./components/Portafolio/Portafolio";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Intro/>
       <Services/>
       <Experience/>
+      <Portafolio/>
     </div>
   );
 }

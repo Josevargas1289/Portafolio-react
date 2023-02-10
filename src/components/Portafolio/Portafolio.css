@@ -1,0 +1,133 @@
+.portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 7rem;
+
+
+}
+
+/* heading */
+.portfolio span:nth-of-type(1) {
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.portfolio span:nth-of-type(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.container-p {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    gap: 3rem;
+    margin-top: 4rem;
+
+}
+
+.card-p {
+
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 428px;
+    height: 228px;
+    overflow: hidden;
+    background-size: cover;
+    box-shadow: 1px 1px 5px 1px gray;
+
+}
+
+.p1 {
+    background-image: url(../../img/eCommercepersonal.png);
+}
+
+.p2 {
+    background-image: url(../../img/eCommerceacademlo.png);
+}
+.p3 {
+    background-image: url(../../img/Pokedex.png);
+}
+.p4 {
+    background-image: url(../../img/RickadnMorty.png);
+}
+
+.p5 {
+    background-image: url(../../img/Crud.png);
+}
+.p6 {
+    background-image: url(../../img/Portafolio.png);
+}
+.if1{
+    border: 5px solid #158cba;
+}
+.if2{
+    border: 5px solid #e94959;
+}
+.if3{
+    border: 5px solid #799ce6;
+}
+.if4{
+    border: 5px solid #062226;
+}
+.if5{
+    border: 5px solid #4e36b3;
+}
+.if6{
+    border: 5px solid #fdc807;
+}
+
+
+.info-p {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    transform: translateY(100%) translateY(-88px) translateZ(0);
+    transition: transform 0.5s ease-out;
+    border-radius: 16px;
+
+}
+
+.info-p:before {
+    z-index: -1;
+    display: block;
+    position: absolute;
+    /* content: ' '; */
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    filter: blur(10px);
+    background-size: cover;
+    opacity: 0.25;
+    transform: translateY(-100%) translateY(88px) translateZ(0);
+    transition: transform 0.5s ease-out;
+}
+
+.card-p:hover .info-p,
+.card-p:hover .info-p:before {
+    transform: translateY(0) translateZ(0);
+}
+
+.title-p {
+    margin: 0;
+    padding: 24px;
+    font-size: 40px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.description-p {
+    margin: 0;
+    padding: 0 24px 24px;
+    font-size: 18px;
+    line-height: 1.5;
+}
