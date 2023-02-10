@@ -9,8 +9,8 @@ const Portafolio = () => {
     return (
         <div className="portfolio" id="portfolio">
             {/* heading */}
-            <span >Recent Projects</span>
-            <span>Portfolio</span>
+            <span >Proyectos Recientes</span>
+            <span>Portafolio</span>
             <div className='container-p'>
 
                 <div className='card-p p1'>
