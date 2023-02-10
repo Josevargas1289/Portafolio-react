@@ -1,3 +1,6 @@
+.n-wrapper *{
+  font-family: 'Poppins', sans-serif;
+}
 .n-wrapper{
     height: 10vh;
     display: flex;

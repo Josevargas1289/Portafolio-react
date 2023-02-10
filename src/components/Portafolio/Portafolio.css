@@ -1,3 +1,8 @@
+* {
+    font-family: "Gumela";
+    font-weight: normal;
+    font-size: 20px;
+  }
 .portfolio {
     display: flex;
     align-items: center;
@@ -42,8 +47,6 @@
     height: 228px;
     overflow: hidden;
     background-size: cover;
-    
-   
     box-shadow: 0px 0px 6px 3px rgba(128, 128, 128, 0.663);
 
 }
@@ -77,46 +80,56 @@
     background-image: url(../../img/Portafolio.png);
 }
 .if1{
-    border: 5px solid #158cba;
+    border: 5px solid #fdc807;
 }
 .if2{
-    border: 5px solid #e94959;
+    border: 5px solid #fdc807;
+
+
 }
 .if3{
-    border: 5px solid #799ce6;
+    border: 5px solid #fdc807;
+
+
 }
 .if4{
-    border: 5px solid #062226;
+    border: 5px solid #fdc807;
+
+
 }
 .if5{
-    border: 5px solid #4e36b3;
+    border: 5px solid #fdc807;
+
+
 }
 .if6{
     border: 5px solid #fdc807;
+
+
 }
 
 .btn0{
-    background-color: #158cba;
+    background-color: #1a89e1;
    
     
 
 }
 .btn1{
-background-color: #e94959;;
+background-color: #1a89e1;
 }
 .btn2{
-background-color: #799ce6;
+background-color: #1a89e1;
 }
 .btn3{
-    background-color: #062226;
+    background-color: #1a89e1;
 
 }
 .btn4{
-    background-color: #4e36b3;
+    background-color: #1a89e1;
 
 }
 .btn5{
-background-color: #fdc807;
+background-color: #1a89e1;
 }
 
 .info-p {

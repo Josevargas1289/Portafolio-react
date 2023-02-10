@@ -2,9 +2,8 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    height: 77vh;
-    margin-top: 6rem;
-    padding-bottom: 6rem;
+    margin-top: 5rem;
+    padding-bottom: -3rem;
     border-bottom: 2px dotted var(--orange);
  
 
@@ -25,20 +24,26 @@
 .i-name>:nth-child(1){
     color:var(--black);
     font-weight: bold;
-    font-size: 3rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .i-name>:nth-child(2){
     color: var(--orange);
     font-weight: bold;
     font-size: 3rem;
+    font-family: 'Secular One', sans-serif;
+
 }
 
 .i-name>:nth-child(3){
    
     font-weight: 100;
-    font-size: 20px;
-    line-height: 1.5rem;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.3rem;
     margin-top: 1rem;
     color: var(--gray);
 }
@@ -81,6 +86,7 @@
 .imgperfil{
  
   width: 550px;
+  margin-top: -2rem;
 }
 
 .imgemoji {

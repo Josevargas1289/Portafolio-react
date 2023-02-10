@@ -25,6 +25,8 @@ const Services = () => {
                 </spane>
 
                 <a href={cv} download>
+                    <br />
+                    
                     <button className="button s-button">Download CV</button>
                 </a>
                 <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
@@ -32,7 +34,7 @@ const Services = () => {
             {/* rigth side */}
             <div className="cards">
                 {/* firts-card */}
-                <div style={{ left: '12rem' }}>
+                <div style={{ right: '7rem', top: '5rem' }}>
                     <Card
                         emoji={HeartEmogie}
                         Heading={'Desing'}
@@ -40,7 +42,7 @@ const Services = () => {
                 </div>
                 {/* secon-card */}
 
-                <div style={{ top: '18rem', left: '-4rem' }}>
+                <div style={{ top: '-3rem', left: '7rem' }}>
                     <Card
                         emoji={Glasess}
                         Heading={'Developer'}
@@ -50,7 +52,7 @@ const Services = () => {
 
                 {/* thir-card */}
 
-                <div style={{ top: '21rem', left: '12rem' }}>
+                <div style={{ top: '13rem', left: '7rem' }}>
                     <Card
                         emoji={Humble}
                         Heading={'UI/UX'}

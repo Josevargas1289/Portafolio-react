@@ -16,7 +16,7 @@ const Portafolio = () => {
 
                 <div className='card-p p1'>
                     <div className='info-p if1'>
-                        <h3 className='title-p animate__animated animate__fadeInBottomRight' > <i className='bx bxs-shopping-bag bx-md bx-tada'> </i>eComerce</h3>
+                        <h3 className='title-p animate__animated animate__fadeInBottomRight' > <i className='bx bxs-shopping-bag bx-sm bx-tada'> </i> eComerce</h3>
 
                         <p className='description-p'>Desarollado usando React, HTML, CSS, JS, Redux, Boostrap y NodeJS.</p>
                         <div className='container-btn'>
@@ -35,7 +35,7 @@ const Portafolio = () => {
 
                 <div className='card-p p2'>
                     <div className='info-p if2'>
-                        <h3 className='title-p animate__animated animate__fadeInBottomRight' > <i className='bx bxs-shopping-bag bx-md bx-tada'> </i>eComerce</h3>
+                        <h3 className='title-p animate__animated animate__fadeInBottomRight' > <i className='bx bxs-shopping-bag bx-sm bx-tada'> </i> eComerce</h3>
                         <p className='description-p'>Desarollado usando HTML, CSS y Vanilla JS </p>
                         <div className='container-btn'>
                             <a href="https://delightful-wisp-5363dd.netlify.app/" target='blank'>
@@ -49,7 +49,7 @@ const Portafolio = () => {
                 </div>
                 <div className='card-p p3'>
                     <div className='info-p if3 '>
-                        <h3 className='title-p'><i class='bx bx-cricket-ball bx-md bx-tada'></i>Pokedex</h3>
+                        <h3 className='title-p'><i class='bx bx-cricket-ball bx-sm bx-tada'></i> Pokedex</h3>
                         <p className='description-p'>Desarollado usando HTML, CSS y React, y peteiciones a la API con ayuda de Axios</p>
                         <div className='container-btn'>
                             <a href="https://delightful-wisp-5363dd.netlify.app/" target='blank'>
@@ -63,7 +63,7 @@ const Portafolio = () => {
                 </div>
                 <div className='card-p p4'>
                     <div className='info-p if4'>
-                        <h3 className='title-p'><i class='bx bxs-bug-alt bx-md bx-tada'></i>Rick and Morty </h3>
+                        <h3 className='title-p'><i class='bx bxs-bug-alt bx-sm bx-tada'></i> Rick and Morty </h3>
                         <p className='description-p'>Desarollado usando HTML, CSS y React, y peteiciones a la API con ayuda de Axios</p>
                         <div className='container-btn'>
                             <a href="https://delightful-wisp-5363dd.netlify.app/" target='blank'>
@@ -77,7 +77,7 @@ const Portafolio = () => {
                 </div>
                 <div className='card-p p5'>
                     <div className='info-p if5'>
-                        <h1 className='title-p'><i className='bx bxs-log-in-circle bx-md bx-tada'></i>Crud's</h1>
+                        <h1 className='title-p'><i className='bx bxs-log-in-circle bx-sm bx-tada'></i> Crud's</h1>
                         <p className='description-p'>Desarollado con Redux, React, HTML, CSS, permite crear, leer, actualizar y eliminar usuarios</p>
                         <div className='container-btn'>
                             <a href="https://delightful-wisp-5363dd.netlify.app/" target='blank'>
@@ -91,7 +91,7 @@ const Portafolio = () => {
                 </div>
                 <div className='card-p p6'>
                     <div className='info-p if6'>
-                        <h1 className='title-p'><i class='bx bxs-shopping-bag bx-md bx-tada'></i>Portafolio</h1>
+                        <h1 className='title-p'><i class='bx bxs-shopping-bag bx-sm bx-tada'></i> Portafolio</h1>
                         <p className='description-p'>Desarrollado con HTML, CSS, React y Boostrap</p>
                         <div className='container-btn'>
                             <a href="https://delightful-wisp-5363dd.netlify.app/" target='blank'>
