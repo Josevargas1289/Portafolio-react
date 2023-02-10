@@ -29,7 +29,7 @@
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    gap: 3rem;
+    gap: 5rem;
     margin-top: 4rem;
 
 }
@@ -42,7 +42,9 @@
     height: 228px;
     overflow: hidden;
     background-size: cover;
-    box-shadow: 1px 1px 5px 1px gray;
+    
+   
+    box-shadow: 0px 0px 6px 3px rgba(128, 128, 128, 0.663);
 
 }
 .btnP{
@@ -54,6 +56,7 @@
 }
 
 .p1 {
+    
     background-image: url(../../img/eCommercepersonal.png);
 }
 
@@ -184,7 +187,7 @@ background-color: #fdc807;
     filter: blur(72px);
   }
 
-  .blur-p1 {
+  /* .blur-p1 {
     position: absolute;
     width: 22rem;
     height: 14rem;
@@ -195,7 +198,7 @@ background-color: #fdc807;
     top: 190rem;
     left: 50rem;
     filter: blur(72px);
-  }
+  } */
 
 
 

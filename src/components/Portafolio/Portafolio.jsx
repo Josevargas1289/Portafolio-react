@@ -30,7 +30,7 @@ const Portafolio = () => {
 
                     </div>
                 </div>
-                <div className="blur-p s-blur5" style={{ background: "#ABF1FF94" }}></div>
+                {/* <div className="blur-p s-blur5" style={{ background: "#ABF1FF94" }}></div> */}
 
 
                 <div className='card-p p2'>
@@ -103,10 +103,10 @@ const Portafolio = () => {
                         </div>
                     </div>
                 </div>
-                <div
+                {/* <div
                     className="blur-p1 "
                     style={{ background: "var(--purple)" }}
-                ></div>
+                ></div> */}
 
 
 

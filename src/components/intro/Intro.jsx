@@ -8,10 +8,10 @@ import Instagram from '../../img/instagram.png';
 // import boy2 from '../../img/boy3.png'
 import fotoperfil from '../../img/fotoperfil.png'
 
-import thunbup from '../../img/thumbup.png'
-import Crown from '../../img/crown.png'
+// import thunbup from '../../img/thumbup.png'
+// import Crown from '../../img/crown.png'
 // import glassesimoji from '../../img/glassesimoji.png'
-import Floatingdiv from '../FloatingDiv/Floatingdiv';
+// import Floatingdiv from '../FloatingDiv/Floatingdiv';
 
 
 
@@ -40,15 +40,15 @@ const Intro = () => {
                
                 {/* <img className='imgemoji' src={glassesimoji} alt="" /> */}
                 
-                <div style={{ top: '-4%', left: '68%' }}>
+                {/* <div style={{ top: '-4%', left: '60%' }}>
                     <Floatingdiv image={Crown} text1='Web' text2='Developer' />
                 </div>
                 <div style={{ top: '18rem', left: '-1rem' }}>
                     <Floatingdiv image={thunbup} text1='Full Stack' />
-                </div>
+                </div> */}
                 {/* bluur divs */}
-                <div className='blur' style={{background: 'rgb(238 210 255)'}}></div>
-                <div className='blur' style={{background: '#C1F5FF', top: '17rem', width: '21rem', height: '11rem', left: '-11rem'}}></div>
+                {/* <div className='blur' style={{background: 'rgb(238 210 255)'}}></div>
+                <div className='blur' style={{background: '#C1F5FF', top: '17rem', width: '21rem', height: '11rem', left: '-11rem'}}></div> */}
             </div>
         </div>
     );

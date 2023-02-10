@@ -22,7 +22,7 @@ const Experience = () => {
                 <span>Mis</span>
                 <span>Habilidades</span>
               
-            <div className="blur s-blur3" style={{ background: "#ABF1FF94" }}></div>
+            {/* <div className="blur s-blur3" style={{ background: "#ABF1FF94" }}></div> */}
            
             </div>
            

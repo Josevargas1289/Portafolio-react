@@ -4,8 +4,9 @@
     align-content: center;
     height: 77vh;
     margin-top: 6rem;
-    padding-bottom: 10rem;
+    padding-bottom: 6rem;
     border-bottom: 2px dotted var(--orange);
+ 
 
 }
 .i-left{
@@ -78,6 +79,7 @@
    
 }
 .imgperfil{
+ 
   width: 550px;
 }
 
@@ -90,7 +92,7 @@
   }
 
   /* blur */
-  .blur {
+  /* .blur {
     position: absolute;
     width: 22rem;
     height: 14rem;
@@ -101,7 +103,7 @@
     top: -18%;
     left: 56%;
     filter: blur(72px);
-  }
+  } */
 
   @media screen and (max-width: 480px) {
     .Intro {

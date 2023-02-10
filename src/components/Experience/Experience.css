@@ -8,7 +8,7 @@
     justify-items: center;
     align-content: center;
     align-items: center;
-    border-bottom: 2px dotted var(--orange);
+   border-bottom: 2px dotted var(--orange);
     padding-bottom: 7rem;
  
 }
@@ -93,7 +93,7 @@
   }
  
   /* blur */
-.s-blur4 {
+/* .s-blur4 {
     left: -25rem;
     top: 1rem;
   }
@@ -101,7 +101,7 @@
   .s-blur3 {
     top: 20rem;
     left: 0rem;
-  }
+  } */
 
   
   
