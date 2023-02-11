@@ -235,7 +235,8 @@ background-color: #1a89e1;
   @media screen and (max-width: 480px) {
     .portfolio {
         transform: scale(0.75);
-        height: 85rem;
+        height: 95rem;
+        padding-top: 5rem;
         padding-bottom: 18rem;
         
    

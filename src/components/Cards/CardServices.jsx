@@ -7,7 +7,7 @@ const CardServices = ({ emoji, Heading, detail }) => {
             <img src={emoji} alt="" />
             <span>{Heading}</span>
             <span>{detail}</span>
-            <button className="c-button"><i className='bx bxs-alarm-add bx-md'></i></button>
+            
 
         </div>
     );

@@ -39,7 +39,7 @@ const Services = () => {
                     <CardServices
                         emoji={HeartEmogie}
                         Heading={'Desing'}
-                        detail={'Figma,  Canva, Photoshop'} />
+                        detail={'Incorporar  tecnologías como HTML, Css y Boostrap para crear diseños increibles, o hacer visible tu modelo de negocio en una pagina web'} />
                 </div>
                 {/* secon-card */}
 
@@ -47,7 +47,7 @@ const Services = () => {
                     <CardServices
                         emoji={Glasess}
                         Heading={'Developer'}
-                        detail={'HTML, CSS, JavaScript, React'} />
+                        detail={'Integrar a los diseños web tecnologías como JavaScript, React, Redux, NodeJs, entre otras, para darle funcionalidades unicas a cualquier pagina o modelo de negocio  '} />
 
                 </div>
 
@@ -57,7 +57,7 @@ const Services = () => {
                     <CardServices
                         emoji={Humble}
                         Heading={'UI/UX'}
-                        detail={'Investigacion, Diseño, Evaluacion'} />
+                        detail={'Investigación, Diseño, y evaluación de  nuevas tecnologías que agilicen y enriquezcan los servicios que se puedan brindar par dar solución a un problema o cubrir una necesidad'} />
 
                 </div>
              

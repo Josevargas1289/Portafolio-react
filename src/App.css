@@ -29,6 +29,7 @@ html{
   padding: 11px 26px 11px 26px;
   background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
   box-shadow: 0px 1px 10px 1px rgba(251, 161, 40, 0.42);
+  cursor: pointer;
  
 }
 
@@ -38,6 +39,7 @@ html{
   border: 1px solid var(--orange);
   color: var(--orange);
 }
+
 @media screen and (max-width: 480px) {
   .App {
     padding: 0.5rem 1rem;

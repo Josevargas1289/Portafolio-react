@@ -105,10 +105,7 @@ const Portafolio = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div
-                    className="blur-p1 "
-                    style={{ background: "var(--purple)" }}
-                ></div> */}
+               
 
 
 

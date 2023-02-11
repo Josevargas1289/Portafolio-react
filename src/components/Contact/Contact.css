@@ -20,6 +20,7 @@
 
 }
 
+
 .w-left{
     display: flex;
     flex-direction: column;
@@ -91,6 +92,7 @@ textarea{
     .c-right .user{
         width: 16rem;
     }
+
 
 }   
 
