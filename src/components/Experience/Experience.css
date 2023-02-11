@@ -4,13 +4,12 @@
     flex-direction: column;
     margin-top: -2rem;
     gap: 4rem;
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    align-items: center;
-   border-bottom: 2px dotted var(--orange);
-    padding-bottom: 7rem;
- 
+   
+    border-bottom: 2px dotted var(--orange);
+    /* padding-top: 4rem; */
+    height: 150vh;
+    padding-top: 4rem;
+
 }
 
 
@@ -81,6 +80,7 @@
     font-size: 2rem;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: -1rem;
   }
 
   .awesome1 > :nth-child(2) {

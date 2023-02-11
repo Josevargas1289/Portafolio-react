@@ -29,27 +29,16 @@ const Intro = () => {
                 </div>
     
                 <div className="i-icons">
-                    <a href="https://github.com/Josevargas1289"> <img src={Github} alt="" /></a>
-                    <a href="https://www.linkedin.com/in/jose-vargas-arango/"><img src={Linkedind} alt="" /></a>
-                    <a href="https://www.instagram.com/jose29d/"> <img src={Instagram} alt="" /></a>
+                    <a href="https://github.com/Josevargas1289" target='blank'> <img src={Github} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/jose-vargas-arango/" target='blank'><img src={Linkedind} alt="" /></a>
+                    <a href="https://www.instagram.com/jose29d/" target='blank'> <img src={Instagram} alt="" /></a>
                 </div>
             </div>
-            <div className="i-rigth">
+            <div className="i-rigth" >
                 <img className='imgperfil' src={fotoperfil} alt="" />
-               
-               
-                {/* <img className='imgemoji' src={glassesimoji} alt="" /> */}
-                
-                {/* <div style={{ top: '-4%', left: '60%' }}>
-                    <Floatingdiv image={Crown} text1='Web' text2='Developer' />
-                </div>
-                <div style={{ top: '18rem', left: '-1rem' }}>
-                    <Floatingdiv image={thunbup} text1='Full Stack' />
-                </div> */}
-                {/* bluur divs */}
-                {/* <div className='blur' style={{background: 'rgb(238 210 255)'}}></div>
-                <div className='blur' style={{background: '#C1F5FF', top: '17rem', width: '21rem', height: '11rem', left: '-11rem'}}></div> */}
             </div>
+            
+            
         </div>
     );
 };

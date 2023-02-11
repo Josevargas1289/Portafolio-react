@@ -3,18 +3,19 @@ import '../Servicess/Services.css'
 import HeartEmogie from '../../img/heartemoji.png'
 import Glasess from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
-import Card from '../Cards/Card';
 import cv from '../Servicess/Cv.pdf'
+import CardServices from '../Cards/CardServices';
 
 
 const Services = () => {
     return (
-        <div className="services">
+       
+        <div className="services" id='servicios'>
             {/* left side */}
             <div className="awesome">
                 <span>Mis</span>
                 <span>Servicios</span>
-                <spane>
+                <span>
                     Ofrezco servicios de desarrollo front-end con experiencia
                     <br /> en React, HTML, CSS y JavaScript. Mi habilidad de aprendizaje
                     <br />
@@ -22,20 +23,20 @@ const Services = () => {
                     <br />
                     Mi objetivo es brindar soluciones únicas y eficientes a los desafíos
                     <br /> del cliente.
-                </spane>
+                </span>
 
                 <a href={cv} download>
                     <br />
                     
-                    <button className="button s-button">Download CV</button>
+                    <button className="button s-button btn-download">Download CV</button>
                 </a>
-                <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
+                
             </div>
             {/* rigth side */}
             <div className="cards">
                 {/* firts-card */}
                 <div style={{ right: '7rem', top: '5rem' }}>
-                    <Card
+                    <CardServices
                         emoji={HeartEmogie}
                         Heading={'Desing'}
                         detail={'Figma,  Canva, Photoshop'} />
@@ -43,7 +44,7 @@ const Services = () => {
                 {/* secon-card */}
 
                 <div style={{ top: '-3rem', left: '7rem' }}>
-                    <Card
+                    <CardServices
                         emoji={Glasess}
                         Heading={'Developer'}
                         detail={'HTML, CSS, JavaScript, React'} />
@@ -53,19 +54,17 @@ const Services = () => {
                 {/* thir-card */}
 
                 <div style={{ top: '13rem', left: '7rem' }}>
-                    <Card
+                    <CardServices
                         emoji={Humble}
                         Heading={'UI/UX'}
                         detail={'Investigacion, Diseño, Evaluacion'} />
 
                 </div>
-                <div
-                    className="blur s-blur2"
-                    style={{ background: "var(--purple)" }}
-                ></div>
-
+             
             </div>
+         
         </div>
+    
     );
 };
 

@@ -16,8 +16,8 @@ import firebaseimage from '../../img/Firebase.png'
 
 const Experience = () => {
     return (
-        <div className='container-experience'>
-
+        <div className='container-experience' id='experience'>
+          
             <div className="awesome1" style={{textAlign: 'center'}}>
                 <span>Mis</span>
                 <span>Habilidades</span>
@@ -26,7 +26,7 @@ const Experience = () => {
            
             </div>
            
-            <div className="experience" id='experience'>
+            <div className="experience">
                 <div className="achievement">
                     {/* darkMode */}
                     <div className="circle" ><img className='imge-habiliti' src={htmlimage} alt="" /></div>
@@ -50,7 +50,7 @@ const Experience = () => {
                 </div>
 
             </div>
-            <div className="experience" id='experience'>
+            <div className="experience">
 
                 <div className="achievement">
                     {/* darkMode */}
@@ -75,7 +75,7 @@ const Experience = () => {
                 </div>
 
             </div>
-            <div className="experience" id='experience'>
+            <div className="experience" >
 
                 <div className="achievement">
                     {/* darkMode */}

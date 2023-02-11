@@ -1,6 +1,6 @@
-.card {
-    width: 6rem;
-    height: 12rem;
+.card-portafolio {
+    width: 12rem;
+    height: 14rem;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -10,15 +10,14 @@
     flex-direction: column;
     gap: 1rem;
     align-items: center;
-    width: 10rem;
     text-align: center;
     background: #1a89e1;
     box-shadow: 2px 2px 8px 1px rgb(93, 93, 93);
     border-radius: 20px;
-    padding: 0px 20px 2rem 10px;
+    padding: 0px 0px 2rem 10px;
   }
 
-  .card span:nth-of-type(1) {
+  .card-portafolio span:nth-of-type(1) {
     color: black;
     margin-top: 20px;
     font-size: 20px;
@@ -26,7 +25,7 @@
     font-weight: bold;
     
   }
-  .card span:nth-of-type(2) {
+  .card-portafolio span:nth-of-type(2) {
     color: white;
     font-size: 13px;
     margin-top: -.8rem;
@@ -34,7 +33,7 @@
    
   
   }
-  .card > img {
+  .card-portafolio > img {
     transform: scale(.8);
     margin-bottom: -3rem;
   }
@@ -52,7 +51,7 @@
 
 
 @media screen and (max-width: 480px){
-    .card{
+    .card-portafolio{
       width: auto;
     }
   }
