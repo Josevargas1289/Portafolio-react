@@ -81,8 +81,12 @@ textarea{
     .contact-form{
         padding: 0;
         flex-direction: column;
-        gap: 5rem;
+        gap: 3rem;
         height: 40rem;
+        height: 30rem;
+        padding-top: 12rem;
+        padding-bottom: 15rem;
+       
     }
     .c-right .user{
         width: 16rem;

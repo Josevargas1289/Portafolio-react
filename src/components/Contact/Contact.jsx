@@ -6,14 +6,14 @@ const Contact = () => {
 
 
     return (
-        <div className="contact-form" id="contact">
+        <div className="contact-form">
             {/* left side copy and paste from work section */}
             <div className="w-left">
                 <div className="awesome-contact">
                     {/* darkMode */}
-                    <span >Ponerse en Contacto</span>
+                    <span >Formulario de contacto</span>
                     <span>Contactame</span>
-                    <span className='span-Thanks'>{"Gracias por contactarme"}</span>
+                    <span className='span-Thanks'>{"Gracias"}</span>
 
                 </div>
             </div>

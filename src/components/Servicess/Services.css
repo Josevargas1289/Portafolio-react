@@ -82,3 +82,41 @@
   top: 13rem;
   left: -18rem;
 } */
+
+@media screen and (max-width: 480px) {
+  .services {
+  
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 0;
+    flex-direction: column;
+    gap: 5rem;
+    height: 35rem;
+    padding: 0;
+ 
+  
+
+  }
+
+
+
+  .awesome {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 69%;
+    padding: 2rem;
+  }
+  .cards{
+    display: none;
+
+  }
+  
+}

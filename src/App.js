@@ -19,7 +19,9 @@ function App() {
       <Intro/>
       <Services/>
       <Experience/>
+      <div id='portafolio'></div>
       <Portafolio/>
+      <div id='contacto'></div>
       <Contact/>
       <Footer/>
     </div>

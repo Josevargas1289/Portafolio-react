@@ -114,6 +114,18 @@
   
   @media screen and (max-width: 480px) {
       .experience{
-          transform: scale(0.7);
+          transform: scale(0.6);
+      
+          
       }
+      .container-experience{
+   
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        height: 35rem;
+     
+   
+    }
+    
   }

@@ -18,6 +18,7 @@
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     margin-bottom: -1rem;
+
 }
 
 .portfolio span:nth-of-type(2) {
@@ -26,6 +27,11 @@
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 
+}
+.title-portafolio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .container-p {
@@ -225,3 +231,24 @@ background-color: #1a89e1;
     top: 30rem;
     left: 10rem;
   } */
+
+  @media screen and (max-width: 480px) {
+    .portfolio {
+        transform: scale(0.75);
+        height: 85rem;
+        padding-bottom: 18rem;
+        
+   
+}
+.container-p {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    gap: 3rem;
+
+    
+
+}
+  }

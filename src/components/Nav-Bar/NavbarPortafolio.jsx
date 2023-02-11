@@ -30,7 +30,7 @@ const NavbarPortafolio = () => {
                             <Nav.Link eventKey={3} href="#portafolio" className='home-icon'>
                                 Portafolio
                             </Nav.Link>
-                            <Nav.Link eventKey={4} href="#contact" className='home-icon'>
+                            <Nav.Link eventKey={4} href="#contacto" className='home-icon'>
                                 Contacto
                             </Nav.Link>
                        

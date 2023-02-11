@@ -11,11 +11,6 @@
     margin-left: 4%;
     height: 100vh;
     
- 
-   
-   
- 
-
 }
 .i-left{
     display: flex;
@@ -122,10 +117,24 @@
   } */
 
   @media screen and (max-width: 480px) {
-    .Intro {
+    .intro {
+ 
       flex-direction: column;
       gap: 7rem;
-      height: 64rem;
+      margin-top: 15rem;
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      align-content: center;
+      align-items: center;
+      /* height: 64rem;
+      margin-top: 5rem;
+      width: 100%; */
+      padding: 0;
+     
+      
+     
     }
   
     .i-right {
@@ -139,4 +148,26 @@
       /* display: none; */
       top: -7rem !important;;
     }
+    .imgperfil{
+ 
+      width: 300px;
+      position: absolute;
+      top: -43rem;
+      right:-6rem;
+    
+    }
+    .i-left{
+      display: flex;
+      width: 100%;
+      text-align: center;
+    
+  }
+  .i-name>:nth-child(3){
+   
+   margin-top: 15rem;
+}
+.i-icons{
+  display: flex;
+  justify-content: center;
+}
   }

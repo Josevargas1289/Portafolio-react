@@ -7,11 +7,13 @@ import '../Portafolio/Portafolio.css'
 
 const Portafolio = () => {
     return (
-        <div className="portfolio" id="portafolio">
+        <div className="portfolio" >
 
             {/* heading */}
-            <span >Proyectos Recientes</span>
-            <span>Portafolio</span>
+            <div className='title-portafolio'>
+                <span >Proyectos Recientes</span>
+                <span>Portafolio</span>
+            </div>
             <div className='container-p'>
 
                 <div className='card-p p1'>
