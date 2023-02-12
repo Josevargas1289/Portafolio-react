@@ -3,7 +3,7 @@ import '../Servicess/Services.css'
 import HeartEmogie from '../../img/heartemoji.png'
 import Glasess from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
-import cv from '../Servicess/Cv.pdf'
+import cv from '../Servicess/cv-Jose-Vargas-Arango.pdf'
 import CardServices from '../Cards/CardServices';
 
 
