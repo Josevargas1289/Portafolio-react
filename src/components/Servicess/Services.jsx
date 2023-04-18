@@ -16,8 +16,8 @@ const Services = () => {
                 <span>Mis</span>
                 <span>Servicios</span>
                 <span>
-                    Ofrezco servicios de desarrollo front-end con experiencia
-                    <br /> en React, HTML, CSS y JavaScript. Mi habilidad de aprendizaje
+                    Ofrezco servicios de desarrollo front-end y back-end con experiencia
+                    <br /> en React, NodeJs, HTML, CSS y JavaScript. Mi habilidad de aprendizaje
                     <br />
                     me permite adaptarme rápidamente a nuevas tecnologías.
                     <br />

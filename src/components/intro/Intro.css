@@ -23,6 +23,7 @@
 .i-name{
     display: flex;
     flex-direction: column;
+ 
 
 }
 .i-name>:nth-child(1){
@@ -33,6 +34,7 @@
     font-family: 'Poppins', sans-serif;
     margin-bottom: -1rem;
 
+
 }
 
 .i-name>:nth-child(2){
@@ -40,6 +42,7 @@
     font-weight: bold;
     font-size: 3rem;
     font-family: 'Secular One', sans-serif;
+    
 
 }
 
@@ -51,6 +54,7 @@
     line-height: 1.3rem;
     margin-top: 1rem;
     color: var(--gray);
+  
 }
 .i-button{
     width: 6rem;
@@ -121,7 +125,7 @@
  
       flex-direction: column;
       gap: 7rem;
-      margin-top: 15rem;
+      margin-top: 21rem;
       margin-bottom: 1rem;
       display: flex;
       justify-content: center;
@@ -152,7 +156,7 @@
  
       width: 300px;
       position: absolute;
-      top: -43rem;
+      top: -51.5rem;
       right:-6rem;
     
     }
@@ -169,5 +173,6 @@
 .i-icons{
   display: flex;
   justify-content: center;
+  padding-bottom: 8rem;
 }
   }
