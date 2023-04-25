@@ -2,6 +2,8 @@ import React from 'react';
 import '../Contact/Contact.css'
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
+import  Slide  from 'react-reveal/Slide';
+
 
 
 
@@ -25,6 +27,7 @@ const Contact = () => {
 
     return (
         <div className="contact-form">
+              <Slide bottom cascade duration = {2000}>
             {/* left side copy and paste from work section */}
             <div className="w-left">
                 <div className="awesome-contact">
@@ -48,6 +51,7 @@ const Contact = () => {
                     ></div>
                 </form>
             </div>
+            </Slide>
         </div>
     );
 };

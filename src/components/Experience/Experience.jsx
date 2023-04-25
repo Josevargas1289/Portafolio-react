@@ -12,12 +12,14 @@ import nodeimage from '../../img/node.png'
 import postgresimage from '../../img/postgresql-icon.png'
 import sequelizeimage from '../../img/sequelize.png'
 import firebaseimage from '../../img/Firebase.png'
+import  Slide  from 'react-reveal/Slide';
+
 
 
 const Experience = () => {
     return (
         <div className='container-experience' id='experience'>
-          
+            <Slide bottom cascade duration = {2000} scroll ={true}>
             <div className="awesome1" style={{textAlign: 'center'}}>
                 <span>Mis</span>
                 <span>Habilidades</span>
@@ -99,13 +101,15 @@ const Experience = () => {
                     <span>Firebase</span>
                    
                 </div>
+                
                
 
             </div>
             
           
 
-
+            </Slide>
+          
 
 
         </div>

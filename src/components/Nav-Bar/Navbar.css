@@ -14,7 +14,12 @@
 .home-icon:hover{
     color: white;
 }
-
+.home-iten{
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   align-items: center; 
+}
 
 .home-iten{
    

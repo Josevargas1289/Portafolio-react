@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Portafolio/Portafolio.css'
+import  Slide  from 'react-reveal/Slide';
 
 
 
@@ -8,6 +9,7 @@ import '../Portafolio/Portafolio.css'
 const Portafolio = () => {
     return (
         <div className="portfolio" >
+            <Slide bottom cascade duration = {2000} >
 
             {/* heading */}
             <div className='title-portafolio'>
@@ -114,7 +116,7 @@ const Portafolio = () => {
 
 
 
-
+            </Slide>
 
 
         </div>

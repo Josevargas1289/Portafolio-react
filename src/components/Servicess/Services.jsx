@@ -5,12 +5,20 @@ import Glasess from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
 import cv from '../Servicess/cv-Jose-Vargas.pdf.pdf'
 import CardServices from '../Cards/CardServices';
+import  Slide  from 'react-reveal/Slide';
+
+
+
 
 
 const Services = () => {
+
+  
     return (
+      
        
         <div className="services" id='servicios'>
+              <Slide bottom cascade duration = {2000}   >
             {/* left side */}
             <div className="awesome">
                 <span>Mis</span>
@@ -62,8 +70,9 @@ const Services = () => {
                 </div>
              
             </div>
-         
+            </Slide>
         </div>
+      
     
     );
 };

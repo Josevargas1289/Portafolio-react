@@ -13,7 +13,7 @@ const NavbarPortafolio = () => {
         <div>
             <Navbar  collapseOnSelect expand="lg" variant="dark" className='colorNav' fixed="top"  >
                 <Container>
-                    <Navbar.Brand  className='home-iten' href="#"><i className='bx bxs-home-circle bx-sm'></i>José Vargas</Navbar.Brand>
+                    <Navbar.Brand  className='home-iten' href="#"><i class='bx bxs-cool bx-spin bx-sm'  ></i>JV</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">

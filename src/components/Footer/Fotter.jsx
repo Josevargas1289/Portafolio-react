@@ -4,10 +4,12 @@ import Wave from '../../img/wave.png';
 import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Linkedin from "@iconscout/react-unicons/icons/uil-linkedin";
 import Gitub from "@iconscout/react-unicons/icons/uil-github";
+import  Zoom  from 'react-reveal/Zoom';
 
 const Footer = () => {
     return (
         <div className="footer">
+            <Zoom bottom cascade duration={3000}>
             <img className="wabe-img" src={Wave} alt="" style={{ width: "100%" }} />
             <div className="f-content">
                 <span>Joseroberto-vargas@hotmail.com</span>
@@ -23,6 +25,7 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
+            </Zoom>
         </div>
     );
 };
