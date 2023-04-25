@@ -101,7 +101,7 @@ const Portafolio = () => {
                             <a href="https://github.com/Josevargas1289/Portafolio-react.git" target='blank'>
                                 <button className='btnP btn5'><i className='bx bxl-github bx-sm  bx-tada-hover'></i></button>
                             </a>
-                            <a href="https://euphonious-daffodil-206790.netlify.app/" target='blank'>
+                            <a href="https://josevargasportafolio.netlify.app/" target='blank'>
                                 <button className='btnP btn5'><i className='bx bxs-navigation bx-sm  bx-tada-hover'></i></button>
                             </a>
                         </div>
