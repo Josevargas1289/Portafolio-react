@@ -9,22 +9,48 @@ import Contact from "./components/Contact/Contact";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarPortafolio from './components/Nav-Bar/NavbarPortafolio';
 import Footer from './components/Footer/Fotter';
+import { useState } from 'react';
 
 
 
 
 function App() {
+
+  const [switchMode, setSwitchMode] = useState(false);
+  const [darkmode, setDarkmode] = useState(false)
+
+  const switchOn = () => {
+    setSwitchMode(!switchMode);
+    setDarkmode(!darkmode);
+  };
+  let classDark = "";
+  if (switchMode === true) {
+    classDark = "active";
+  }
   return (
-    <div className="App">
+    <div className= {
+      `${darkmode ? 'App' : ''}`
+    }>
+      <button
+        onClick={switchOn}
+        className={`switch ${classDark}`}
+        id="swith">
+        <span>
+          <i className="bx bx-sun bx-xs"></i>
+        </span>
+        <span>
+          <i className="bx bx-moon bx-xs"></i>
+        </span>
+      </button>
       <NavbarPortafolio />
-      <Intro/>
-      <Services/>
-      <Experience/>
+      <Intro />
+      <Services />
+      <Experience />
       <div id='portafolio'></div>
-      <Portafolio/>
+      <Portafolio />
       <div id='contacto'></div>
-      <Contact/>
-      <Footer/>
+      <Contact />
+      <Footer />
     </div>
   );
 }

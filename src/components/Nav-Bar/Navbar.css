@@ -1,63 +1,132 @@
-.colorNav{
+.colorNav {
     display: flex;
     justify-content: space-between;
-    background-color: #1a89e2;
+    background-color: var(--navBarColor);
     box-shadow: 1px 1px 5px 1px rgb(0, 0, 0);
 }
-.home-icon{
+
+.home-icon {
     color: var(--orange);
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     height: 100%;
- 
-}
-.home-icon:hover{
-    color: white;
-}
-.home-iten{
-   display: flex;
-   justify-content: center;
-   justify-items: center;
-   align-items: center; 
+
 }
 
-.home-iten{
-   
+.home-icon:hover {
+    color: white;
+}
+
+.home-iten {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.home-iten {
+
     color: var(--orange);
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     height: 100%;
 }
+
 /* .home-iten:hover{
    
     color: white;
 } */
 
+.switch {
+    background-color: var(--orange);
+    border-radius: 1000px;
+    border: none;
+    position: fixed;
+    top: 22px;
+    left: 4.5rem;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: .7rem;
+    padding: 3px;
+    z-index: 4000;
+
+}
+
+.switch:hover {
+    transform: scale(1.1);
+}
+
+.switch::after {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-color: #F1F1F1;
+    top: .5px;
+    left: 0;
+
+    right: unset;
+    border-radius: 50%;
+    transition: 0.3s ease all;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.switch.active {
+    background-color: #242D49;
+    color: white;
+}
+
+.switch.active::after {
+    left: unset;
+    right: 0;
+}
+
+.switch span {
+    display: flex;
+    background-color: none;
+    color: white;
+}
 
 @media (min-width: 600px) {
-    .colorNav{
+    .colorNav {
         display: flex;
         justify-content: space-between;
         background-color: #1a89e2;
         box-shadow: 1px 1px 5px 1px rgb(0, 0, 0);
         height: 70px;
-      
-       
-    
+
+
+
     }
-    .home-icon{
-        
-        border-right: 1px solid rgba(180, 178, 178, 0.541) ;
+
+    .home-icon {
+
+        border-right: 1px solid rgba(180, 178, 178, 0.541);
         padding: 1rem;
-     
-    
-    
+
+
+
     }
-    .firs-icon{
-        border-left: 1px solid rgba(180, 178, 178, 0.541) ;
-        
+
+    .firs-icon {
+        border-left: 1px solid rgba(180, 178, 178, 0.541);
+
     }
-    .home-iten{
+
+    .home-iten {
         margin-left: 2.1rem;
     }
+
+    .switch {
+        position: fixed;
+        top: 22px;
+        left: 10rem;
+    }
+
+
 }
