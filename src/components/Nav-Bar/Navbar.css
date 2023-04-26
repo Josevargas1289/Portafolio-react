@@ -66,9 +66,8 @@
     height: 25px;
     position: absolute;
     background-color: #F1F1F1;
-    top: .5px;
+    top: .2px;
     left: 0;
-
     right: unset;
     border-radius: 50%;
     transition: 0.3s ease all;
