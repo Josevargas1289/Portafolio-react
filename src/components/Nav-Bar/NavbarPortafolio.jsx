@@ -6,6 +6,9 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 
 
 
+
+
+
 const NavbarPortafolio = () => {
 
     
@@ -15,7 +18,7 @@ const NavbarPortafolio = () => {
         <div>
             <Navbar collapseOnSelect expand="lg" variant="dark" className='colorNav' fixed="top"  >
                 <Container>
-                    <Navbar.Brand className='home-iten' href="#"><i class='bx bxs-cool bx-spin bx-sm'  ></i>JV</Navbar.Brand>
+                    <Navbar.Brand className='home-iten leters' href="#"><i class='bx bx-briefcase bx-fade-up bx-flip-horizontal bx-sm' ></i> JV</Navbar.Brand>
                     
 
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

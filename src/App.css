@@ -1,5 +1,6 @@
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 :root
@@ -18,6 +19,7 @@ html{
 .App{
   background-color: #242D49; 
   --black : white;
+  
 
 
 }
@@ -53,6 +55,13 @@ html{
 @media screen and (max-width: 480px) {
   .App {
     padding: 0.5rem 1rem;
+    overflow-x: hidden;
+
+  }
+  .darkIntro{
+    padding: 0.5rem 1rem;
+    overflow-x: hidden;
+
 
   }
 }

@@ -28,8 +28,9 @@ function App() {
     classDark = "active";
   }
   return (
+  
     <div className= {
-      `${darkmode ? 'App' : ''}`
+      `${darkmode ? 'App' : 'darkIntro'}`
     }>
       <button
         onClick={switchOn}
@@ -52,6 +53,7 @@ function App() {
       <Contact />
       <Footer />
     </div>
+    
   );
 }
 

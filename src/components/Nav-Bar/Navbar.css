@@ -59,6 +59,9 @@
 .switch:hover {
     transform: scale(1.1);
 }
+.leters{
+    font-weight:900;
+}
 
 .switch::after {
     content: "";
