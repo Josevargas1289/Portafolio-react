@@ -43,7 +43,7 @@
     border: none;
     position: fixed;
     top: 22px;
-    left: 4.5rem;
+    left: 20%;
     cursor: pointer;
     display: flex;
     outline: none;
@@ -124,7 +124,7 @@
     .switch {
         position: fixed;
         top: 22px;
-        left: 10rem;
+        left: 16%;
     }
 
 
