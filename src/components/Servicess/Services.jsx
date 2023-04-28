@@ -3,9 +3,10 @@ import '../Servicess/Services.css'
 import HeartEmogie from '../../img/heartemoji.png'
 import Glasess from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
-import cv from '../Servicess/cv-Jose-Vargas.pdf.pdf'
+// import cv from '../Servicess/cv-Jose-Vargas.pdf.pdf'
 import CardServices from '../Cards/CardServices';
 import  Slide  from 'react-reveal/Slide';
+import cv from '../../components/Servicess/cv-jose-vargas.pdf'
 
 
 
